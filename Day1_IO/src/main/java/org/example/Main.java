@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("Hello world!");
         System.out.println(2);
         System.out.println(2.5);
@@ -20,11 +22,21 @@ public class Main {
         int skaitlis = 2+3;
         System.out.println(skaitlis);
 
-        Scanner sc = new Scanner(System.in);
         String ievade = sc.nextLine();
         System.out.println(ievade);
         ievade = "aaaa " + nosaukums;
         System.out.println(ievade);
 
+        //#1
+        System.out.println("Ievadiet savu vārdu!");
+        String name = sc.nextLine();
+
+        System.out.println("Sveiki, " + name);
+
+        //#2
+        System.out.println("Ievadiet simbolu virkni!");
+        String virkne = sc.nextLine();
+
+        System.out.println(virkne + " " + virkne + " " + virkne + " " + virkne);
     }
 }
