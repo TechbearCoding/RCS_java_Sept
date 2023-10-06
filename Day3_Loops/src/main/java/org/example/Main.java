@@ -1,8 +1,19 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         sample2();
+    }
+
+    public static void task1(){
+        Scanner sc = new Scanner(System.in);
+
+        //cikls
+        //ciklā ievade
+        //ciklā saskaitīšana
+        //ciklā izvade
     }
 
     public static void sample2(){
