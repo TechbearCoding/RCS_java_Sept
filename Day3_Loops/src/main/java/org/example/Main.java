@@ -13,13 +13,12 @@ public class Main {
 
         int sum = 0;
         for (int i = 0; i < 7; i++) {
+            System.out.println(sum);
             System.out.println("Lūdzu ievadi skaitli");
             int num1 = sc.nextInt();
             sum = sum + num1;
         }
-
         System.out.println(sum);
-
     }
 
     public static void task2() {
