@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        task2();
+        mdokt6();
     }
 
     public static void sample1(){
@@ -10,6 +10,34 @@ public class Main {
         for(int i = 0; i < a; i++){
             System.out.println(i);
             System.out.println("aaa");
+        }
+    }
+
+    static void homework(){
+        String sum = "&";
+        System.out.println(sum);
+
+        for(int i = 0; i < 3; i++){
+            sum = sum + "&";
+            System.out.println(sum);
+        }
+    }
+
+    static void homework2(){
+        for (int i = 1; i <= 4; i++) {
+            for (int a = 1; a <= i; a++) {
+                System.out.print("&");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void mdokt6() {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("&");
+            }
+            System.out.println();
         }
     }
 
