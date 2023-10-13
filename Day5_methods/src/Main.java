@@ -11,9 +11,12 @@ public class Main {
 //        int b = a  + 4;
 //
 //        System.out.println(sample2());
+        String input1 = "aa";
+        String input2 = "bb";
+        String input3 = "cc";
+        sample4(input1, input2, input3);
 
-        String a = task1();
-        System.out.println(a);
+        sample4("aaaa", "bbbbbb", "cccccc");
     }
 
     public static String task1(){
@@ -26,6 +29,15 @@ public class Main {
             result = result + input;
         }
         return result;
+    }
+
+    static void sample4(String a, String b, String c){
+        //uztaisīt metodi, lai tiktu iekšā padoti 3 string tipa mainīgie, kombinēt vertības un izvadīt
+        System.out.println(a + b + c);
+    }
+
+    static void sample3(int a, int b){
+        System.out.println("Summa ir " + (a + b));
     }
 
     public static int sample2(){
