@@ -11,12 +11,28 @@ public class Main {
 //        int b = a  + 4;
 //
 //        System.out.println(sample2());
-        String input1 = "aa";
-        String input2 = "bb";
-        String input3 = "cc";
-        sample4(input1, input2, input3);
+//        String input1 = "aa";
+//        String input2 = "bb";
+//        String input3 = "cc";
+//        sample4(input1, input2, input3);
+//
+//        sample4("aaaa", "bbbbbb", "cccccc");
+        task2(8);
 
-        sample4("aaaa", "bbbbbb", "cccccc");
+        String result;
+
+        String input = "aaa";
+        String b = "bb";
+
+        if(input.length() > b.length()){
+            result = input;
+        }
+    }
+
+    public static void task2(int a){
+        for(int i = 0; i < a; i++){
+            System.out.println("&&&&");
+        }
     }
 
     public static String task1(){
