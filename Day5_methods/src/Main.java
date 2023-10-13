@@ -7,10 +7,25 @@ public class Main {
 //        for(int i = 0; i < 5; i++){
 //            sample1();
 //        }
-        int a = sample2();
-        int b = a  + 4;
+//        int a = sample2();
+//        int b = a  + 4;
+//
+//        System.out.println(sample2());
 
-        System.out.println(sample2());
+        String a = task1();
+        System.out.println(a);
+    }
+
+    public static String task1(){
+        Scanner sc = new Scanner(System.in);
+
+        String result = "";
+        for(int i = 0; i < 3; i++){
+            System.out.println("Ievadiet frāzi!");
+            String input = sc.nextLine();
+            result = result + input;
+        }
+        return result;
     }
 
     public static int sample2(){
