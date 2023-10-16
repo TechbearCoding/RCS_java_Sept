@@ -11,7 +11,7 @@ public class Main {
 
 //        Samples.sample3("aa", "yy", "xx");
 
-        int result = Tasks.task2();
+        int result = Tools.Power(2,4);
         System.out.println(result);
     }
 
