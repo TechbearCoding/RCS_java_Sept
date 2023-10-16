@@ -24,4 +24,11 @@ public class Samples {
     public static int sample4(int a, int b){
         return a + b;
     }
+
+    public static int sample5(){
+        int a = Tasks.task2();
+        int b = Tasks.task2();
+
+        return a + b;
+    }
 }

@@ -11,7 +11,7 @@ public class Main {
 
 //        Samples.sample3("aa", "yy", "xx");
 
-        int result = Samples.sample4(5, 6);
+        int result = Tasks.task2();
         System.out.println(result);
     }
 
