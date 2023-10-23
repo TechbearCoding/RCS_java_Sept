@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class Main {
     private static int a = 3;
     public static void main(String[] args) {
+        
+    }
+
+    public static void rectangleSample(){
 //        sampleVar();
 //        System.out.println(a);
-
         Rectangle rec1 = new Rectangle(2, 5, 2, 5);
         System.out.println(rec1.perimeter());
 
         Rectangle rec2 = new Rectangle(200, 99, 200, 99);
         System.out.println(rec2.perimeter());
-
     }
 
     public static void sampleVar(){
