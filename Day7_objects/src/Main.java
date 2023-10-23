@@ -3,7 +3,20 @@ import java.util.Scanner;
 public class Main {
     private static int a = 3;
     public static void main(String[] args) {
-        
+        Student st = new Student("Mārtiņš", "Leitarts",
+                2, "AAAA");
+        st.print();
+        System.out.println("---------");
+
+        Student st2 = new Student("Anna", "Liepa",
+                2, "AAAA");
+        st2.print();
+
+        System.out.println("---------");
+
+        Student st3 = new Student("Jānis", "Ābele",
+                2, "AAAA");
+        st3.print();
     }
 
     public static void rectangleSample(){
