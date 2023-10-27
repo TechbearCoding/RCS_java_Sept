@@ -7,8 +7,16 @@ public class Student {
     public Student(String name, String lastName, int course, String faculty){
         this.name = name;
         this.lastName = lastName;
-        this.course = course;
         this.faculty = faculty;
+
+        if(course > 4){
+            this.course = 4;
+        }else if(course < 1){
+            this.course = 1;
+        }else{
+            this.course = course;
+        }
+
     }
 
     public void print(){

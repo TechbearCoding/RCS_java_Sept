@@ -3,13 +3,26 @@ import java.util.Scanner;
 public class Main {
     private static int a = 3;
     public static void main(String[] args) {
+        studentSample();
+    }
+
+    public static void bookSample(){
+        Book book1 = new Book("Test", "Test",
+                "BookTest", 2005);
+        book1.print();
+        System.out.println("Grāmata izdota pirms " + book1.getAge(2023) +
+                " gadiem");
+    }
+
+    public static void studentSample(){
         Student st = new Student("Mārtiņš", "Leitarts",
-                2, "AAAA");
+                -2, "AAAA");
         st.print();
+
         System.out.println("---------");
 
         Student st2 = new Student("Anna", "Liepa",
-                2, "AAAA");
+                32, "AAAA");
         st2.print();
 
         System.out.println("---------");
