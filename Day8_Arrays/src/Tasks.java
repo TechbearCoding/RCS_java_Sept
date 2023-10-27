@@ -16,4 +16,23 @@ public class Tasks {
         }
         System.out.println();
     }
+
+    public static void task2(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Lūdzu ievadi vēlamo masīva garumu");
+        int garums = sc.nextInt();
+
+        int[] numMasīvs = new int[garums];
+
+        for(int i = 0; i < numMasīvs.length; i++){
+            System.out.println("Lūdzu ievadiet skaitli!");
+            numMasīvs[i] = sc.nextInt();
+        }
+
+        System.out.println("---------------");
+        for(int i = 0; i < numMasīvs.length; i++){
+            System.out.print(numMasīvs[i] + ", ");
+        }
+        System.out.println();
+    }
 }

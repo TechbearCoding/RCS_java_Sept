@@ -1,5 +1,25 @@
 public class ArraySamples {
 
+    public static void sample3(){
+        String[] a = {"aa", "bb", "cc"};
+        sampleWithArrParam(a);
+
+        String[] b = sampleWithArrReturn();
+        sampleWithArrParam(b);
+    }
+
+    public static String[] sampleWithArrReturn(){
+        String[] a = {"aa", "bb", "cc"};
+        return a;
+    }
+
+    public static void sampleWithArrParam(String[] nosaukums){
+
+        for(int i = 0; i < nosaukums.length; i++){
+            System.out.println(nosaukums[i]);
+        }
+
+    }
     public static void sample2(){
         int[] nosaukums = {2, 4, 8, 12, 16, 18};
 
