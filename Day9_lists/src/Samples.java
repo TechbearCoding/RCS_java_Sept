@@ -27,7 +27,6 @@ public class Samples {
     public static void sample3(){
         //Uztaisit metodi, kas ar return padod masivu, kuru ir ievadijis lietotajs
         int[] a = genArr();
-
         printArr(a);
     }
 
@@ -62,7 +61,7 @@ public class Samples {
 
 
 
-    private static void printArr(int[] arr){
+    public static void printArr(int[] arr){
 
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i] + " ");

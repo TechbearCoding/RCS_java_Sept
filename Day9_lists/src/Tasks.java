@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Tasks {
@@ -22,5 +23,24 @@ public class Tasks {
         }
         System.out.println(count);
     }
+
+    public static void task2() {
+        int[] a = genRandom();
+
+        Samples.printArr(a);
+    }
+
+    private static int[] genRandom() {
+        Random rand = new Random();
+
+        int[] arr = new int[5];
+
+        for(int i = 0; i < arr.length; i++){
+            arr[i] = rand.nextInt(7);
+        }
+
+        return arr;
+    }
+
 
 }
