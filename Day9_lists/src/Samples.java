@@ -24,12 +24,40 @@ public class Samples {
         avarageValue(numMasivs);
     }
 
+    public static void sample3(){
+        //Uztaisit metodi, kas ar return padod masivu, kuru ir ievadijis lietotajs
+        int[] a = genArr();
+
+        printArr(a);
+    }
+
+    private static int[] genArr(){
+        Scanner sc = new Scanner(System.in);
+
+        int[] numMasivs = new int[3];
+
+        for(int i = 0; i < numMasivs.length; i++){
+            System.out.println("Lūdzu ievadiet skaitli!");
+            numMasivs[i] = sc.nextInt();
+        }
+
+        return numMasivs;
+    }
+
     private static void avarageValue(double[] arr){
         double sum = 0;
         for(int i = 0; i < arr.length; i++){
             sum = sum + arr[i];
         }
         System.out.println("Vidējā vērtība- " + (sum/ arr.length));
+    }
+
+    private static double avarageWithReturn(double[] arr){
+        double sum = 0;
+        for(int i = 0; i < arr.length; i++){
+            sum = sum + arr[i];
+        }
+        return sum/ arr.length;
     }
 
 
