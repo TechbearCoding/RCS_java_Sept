@@ -22,16 +22,16 @@ public class Tasks {
         System.out.println("Lūdzu ievadi vēlamo masīva garumu");
         int garums = sc.nextInt();
 
-        int[] numMasīvs = new int[garums];
+        int[] numMasivs = new int[garums];
 
-        for(int i = 0; i < numMasīvs.length; i++){
+        for(int i = 0; i < numMasivs.length; i++){
             System.out.println("Lūdzu ievadiet skaitli!");
-            numMasīvs[i] = sc.nextInt();
+            numMasivs[i] = sc.nextInt();
         }
 
         System.out.println("---------------");
-        for(int i = 0; i < numMasīvs.length; i++){
-            System.out.print(numMasīvs[i] + ", ");
+        for(int i = 0; i < numMasivs.length; i++){
+            System.out.print(numMasivs[i] + ", ");
         }
         System.out.println();
     }

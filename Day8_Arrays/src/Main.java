@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        ArraySamples.sample3();
-//        Tasks.task2();
+//        ArraySamples.sample3();
+        Homework.task2();
     }
 }
